@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
             {children}
           </div>
           <div className="footer">
-            <p className="my-1 flex"> <span>Let's get Social - </span> <Link className="px-2" href="https://www.linkedin.com/in/srishtij1301/"> <FaLinkedin /></Link> 
+            <p className="my-1 flex"> <span>Let&apos;s get Social - </span> <Link className="px-2" href="https://www.linkedin.com/in/srishtij1301/"> <FaLinkedin /></Link> 
             <Link href="https://github.com/srishtij1301"><FaGithub /></Link>
             <Link className="px-2" href="mailto:srishtij1301@gmail.com"><SiGmail /></Link></p>
            {/* <p>Designed & Developed by Srishti Jain - &#169;2025</p>  */}
