@@ -3,6 +3,7 @@
 :root {
   --whiteColor: #ffffff;
   --blackColor: #171717;
+  --cyanColor: cyan;
 }
 
 @theme inline {
@@ -16,7 +17,6 @@
   :root {
     --blackColor: #0a0a0a;
     --whiteColor: #ededed;
-    --cyanColor: cyan;
   }
 }
 
