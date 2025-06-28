@@ -1,6 +1,8 @@
+"use client"
+
 import { TypeAnimation } from 'react-type-animation';
 
-const HeroTextAnim = (props) => {
+const HeroTextAnim = () => {
   return (
     <TypeAnimation
       sequence={[
