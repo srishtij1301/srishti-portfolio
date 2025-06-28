@@ -1,0 +1,28 @@
+.iconBox div{
+    background-color: var(--whiteColor);
+    display:inline-block;
+    width:70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconBox div:hover{
+    background-color: var(--blackColor);
+    transition: 0.5s;
+    border: 1px solid var(--cyanColor);
+}
+
+@media only screen and (max-width: 600px) {
+.iconBox div{
+   width:50px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+}

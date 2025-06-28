@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --whiteColor: #ffffff;
+  --blackColor: #171717;
+}
+
+@theme inline {
+  --color-background: var(--whiteColor);
+  --color-foreground: var(--blackColor);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --blackColor: #0a0a0a;
+    --whiteColor: #ededed;
+    --cyanColor: cyan;
+  }
+}
+
+body {
+  background:
+    linear-gradient(rgb(0 0 0 / 90%), rgb(0 0 0 / 93%)),
+    url('/back_img.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--whiteColor);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 17px;
+  /* text-transform: capitalize; */
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 2;
+}
+
+button {
+  background-color: var(--cyanColor);
+  color: var(--blackColor);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 20px 0px;
+  transition: 0.5s;
+  border: 1px solid var(--cyanColor);
+}
+
+button:hover {
+  background-color: var(--blackColor);
+  color: var(--cyanColor);
+}
+
+.heading {
+  font-size: 35px;
+  color: var(--cyanColor);
+  font-weight: 700;
+  font-style: italic;
+  margin: 20px 0px;
+}
+
+.paraTxt p {
+  color: var(--cyanColor);
+  font-size: 17px;
+}
+
+.paraTxt h2 {
+  font-size: 22px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  padding: 5px 0px;
+  font-size: 12px;
+  background-color: var(--cyanColor);
+  color: var(--blackColor);
+}
+
+.footer p a {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 30px;
+    margin: 20px 0px;
+  }
+
+  .paraTxt h2 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 5px 10px;
+  }
+
+  .textHeight {
+    height: 50px;
+  }
+
+  .break {
+    display: none;
+  }
+}

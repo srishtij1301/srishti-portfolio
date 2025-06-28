@@ -1,0 +1,12 @@
+.adminContain{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 300px;
+    width: 100%;
+    background-color: var(--cyanColor);
+    margin: 20px 0px;
+    color: var(--blackColor);
+    padding: 20px;
+    border-radius: 10px;
+}
