@@ -16,7 +16,7 @@ const Projects = () => {
         <>
             <section id="project" className="md:my-16 px-3 md:px-0" data-aos="fade-down">
                 <br /><br />
-                <h3 className="heading">Project's </h3>
+                <h3 className="heading">Projects </h3>
                 <div className="paraTxt" data-aos="flip-up">
                     <p>Here are some of the projects I’ve worked on that reflect my skills, creativity, and passion for frontend development. From responsive UIs to dynamic web apps, each project helped me grow as a developer and taught me something new. I enjoy building clean, efficient, and user-friendly experiences using modern tools and technologies.
                     </p>
