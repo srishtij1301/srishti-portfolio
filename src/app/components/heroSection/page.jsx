@@ -10,7 +10,7 @@ const Hero = () => {
         <>
             <section className={s.hero}>
                 <div className={`${s.heroText} text-center`}>
-                    <div>
+                    <div className="p-3 md:p-0">
                         <h1>Hello, </h1>
                         <h2>I’m Srishti Jain</h2>
                         <h4>— A Frontend Developer</h4>
