@@ -32,7 +32,7 @@ const Header = () => {
         <>
             <header className="header block md:flex justify-between md:py-5">
                 <div className={`${s.menuTxt} hidden md:block`} >
-                    <h2> MY PORTFOLIO</h2>
+                    <h2> <Link href="/">MY PORTFOLIO</Link> </h2>
                 </div>
                 <div>
 
