@@ -52,7 +52,7 @@ const Header = () => {
                     <div className="flex justify-between items-center px-2 md:hidden">
 
                         <div className={`${s.menuTxt} block md:hidden`} >
-                            <h2> MY PORTFOLIO</h2>
+                            <h2> <Link href="/">MY PORTFOLIO</Link></h2>
                         </div>
                         <button onClick={ToogleMenu}>
                             {isopen ? <FaTimes /> : <FaBars />}
