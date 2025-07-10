@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
             <Link href="https://github.com/srishtij1301"><FaGithub /></Link>
             <Link className="px-2" href="mailto:srishtij1301@gmail.com"><SiGmail /></Link></p>
            {/* <p>Designed & Developed by Srishti Jain - &#169;2025</p>  */}
-           <p>Copyright © 2025 Srishti Jain , Built with 💖 using Next Js & Tailwind</p>
+           <p className="text-center">Copyright © 2025 Srishti Jain , Built with 💖 using Next Js & Tailwind</p>
             </div>
             </ClientWrapper>
       </body>

@@ -22,6 +22,12 @@ const Header = () => {
         )
     }
 
+    const menuClicked = () => {
+        return (
+            setIsopen(false)
+        )
+    }
+
     return (
         <>
             <header className="header block md:flex justify-between md:py-5">
@@ -55,13 +61,15 @@ const Header = () => {
                     {
                         isopen &&
                         <ul className={`${s.menus} leading-10 block md:hidden`}>
+
                             {
                                 menus.map((item, index) => {
                                     return (
-                                        <><li key={index}><Link href={item.link}>{item.menu}</Link></li></>
+                                        <><li onClick={menuClicked} key={index}><Link href={item.link}>{item.menu}</Link></li></>
                                     )
                                 })
                             }
+
                         </ul>
                     }
                 </div>
